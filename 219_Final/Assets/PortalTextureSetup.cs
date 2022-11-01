@@ -2,26 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PortalTextureSetup : MonoBehaviour
-{
-    // Start is called before the first frame update
-    public Camera cameraB;
+public class PortalTextureSetup : MonoBehaviour {
 
-    public Material cameraMatB;
-    void Start()
-    {
-        if (cameraB.targetTexture != null)
-        {
-            cameraB.targetTexture.Release();
-        }
+	public Camera cameraA;
+	public Camera cameraB;
 
-        cameraB.targetTexture = new RenderTexture(Screen.width, Screen.height, 24);
-        cameraMatB.mainTexture = cameraB.targetTexture;
-    }
+	public Material cameraMatA;
+	public Material cameraMatB;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	// Use this for initialization
+	void Start () {
+		if (cameraA.targetTexture != null)
+		{
+			cameraA.targetTexture.Release();
+		}
+		cameraA.targetTexture = new RenderTexture(Screen.width, Screen.height, 24);
+		cameraMatA.mainTexture = cameraA.targetTexture;
+
+		if (cameraB.targetTexture != null)
+		{
+			cameraB.targetTexture.Release();
+		}
+		cameraB.targetTexture = new RenderTexture(Screen.width, Screen.height, 24);
+		cameraMatB.mainTexture = cameraB.targetTexture;
+	}
+	
 }
