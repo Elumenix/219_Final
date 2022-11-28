@@ -624,7 +624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6aa3599c3e4fe5e4aadcade499f8680e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 332.1
+      value: -350
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6aa3599c3e4fe5e4aadcade499f8680e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -632,7 +632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6aa3599c3e4fe5e4aadcade499f8680e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 424.1
+      value: -400
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6aa3599c3e4fe5e4aadcade499f8680e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -662,6 +662,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6aa3599c3e4fe5e4aadcade499f8680e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4abfeef9225aed34e8ffbe267a8265f0, type: 2}
     - target: {fileID: 919132149155446097, guid: 6aa3599c3e4fe5e4aadcade499f8680e, type: 3}
       propertyPath: m_Name
       value: Room4
@@ -1395,7 +1399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6444d1a89fb60b428894f5ed9cc8df2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 279.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6444d1a89fb60b428894f5ed9cc8df2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1403,7 +1407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6444d1a89fb60b428894f5ed9cc8df2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 390.1
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6444d1a89fb60b428894f5ed9cc8df2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1433,6 +1437,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c6444d1a89fb60b428894f5ed9cc8df2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4abfeef9225aed34e8ffbe267a8265f0, type: 2}
     - target: {fileID: 919132149155446097, guid: c6444d1a89fb60b428894f5ed9cc8df2, type: 3}
       propertyPath: m_Name
       value: Room6
@@ -1718,7 +1726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8647ccdecfb509943933b69a311d7932, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 264.1
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8647ccdecfb509943933b69a311d7932, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1726,7 +1734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8647ccdecfb509943933b69a311d7932, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 371.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8647ccdecfb509943933b69a311d7932, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1756,6 +1764,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8647ccdecfb509943933b69a311d7932, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4abfeef9225aed34e8ffbe267a8265f0, type: 2}
     - target: {fileID: 919132149155446097, guid: 8647ccdecfb509943933b69a311d7932, type: 3}
       propertyPath: m_Name
       value: Room5
@@ -3362,7 +3374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3743597651704331073, guid: a3c21aaf0e1d0134889797000f00112e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.103
+      value: 0.1031
       objectReference: {fileID: 0}
     - target: {fileID: 3743597651704331073, guid: a3c21aaf0e1d0134889797000f00112e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5114,13 +5126,25 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1535381020191089684, guid: dbde9c34685a161488a2c887d43a2979, type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
+      objectReference: {fileID: 0}
     - target: {fileID: 1535381020191089686, guid: dbde9c34685a161488a2c887d43a2979, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1535381020191089686, guid: dbde9c34685a161488a2c887d43a2979, type: 3}
+      propertyPath: orthographic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535381020191089686, guid: dbde9c34685a161488a2c887d43a2979, type: 3}
       propertyPath: near clip plane
       value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535381020191089686, guid: dbde9c34685a161488a2c887d43a2979, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7665427741182837592, guid: dbde9c34685a161488a2c887d43a2979, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6566,6 +6590,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 945f71be2d2fa6b4f8258fb116d06b12, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4abfeef9225aed34e8ffbe267a8265f0, type: 2}
     - target: {fileID: 919132149155446097, guid: 945f71be2d2fa6b4f8258fb116d06b12, type: 3}
       propertyPath: m_Name
       value: StartingRoom
@@ -8435,7 +8463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8af94ad8db2cd464ea34f16e3aeaca8c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 287.77002
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8af94ad8db2cd464ea34f16e3aeaca8c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8443,7 +8471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8af94ad8db2cd464ea34f16e3aeaca8c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 368.1
+      value: -400
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8af94ad8db2cd464ea34f16e3aeaca8c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8473,6 +8501,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8af94ad8db2cd464ea34f16e3aeaca8c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4abfeef9225aed34e8ffbe267a8265f0, type: 2}
     - target: {fileID: 919132149155446097, guid: 8af94ad8db2cd464ea34f16e3aeaca8c, type: 3}
       propertyPath: m_Name
       value: Room3
@@ -9826,7 +9858,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d1ca1d0fc0bab8b45bfcda0990d9254f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 305.1
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d1ca1d0fc0bab8b45bfcda0990d9254f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9834,7 +9866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d1ca1d0fc0bab8b45bfcda0990d9254f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 416.1
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d1ca1d0fc0bab8b45bfcda0990d9254f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9864,6 +9896,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d1ca1d0fc0bab8b45bfcda0990d9254f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4abfeef9225aed34e8ffbe267a8265f0, type: 2}
     - target: {fileID: 919132149155446097, guid: d1ca1d0fc0bab8b45bfcda0990d9254f, type: 3}
       propertyPath: m_Name
       value: Room1
@@ -10300,7 +10336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 882707ad38d6ed943a3a4538fbdfa42e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 330.1
+      value: -350
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 882707ad38d6ed943a3a4538fbdfa42e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10308,7 +10344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 882707ad38d6ed943a3a4538fbdfa42e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 368.1
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 882707ad38d6ed943a3a4538fbdfa42e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10338,6 +10374,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 882707ad38d6ed943a3a4538fbdfa42e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4abfeef9225aed34e8ffbe267a8265f0, type: 2}
     - target: {fileID: 919132149155446097, guid: 882707ad38d6ed943a3a4538fbdfa42e, type: 3}
       propertyPath: m_Name
       value: Room2
